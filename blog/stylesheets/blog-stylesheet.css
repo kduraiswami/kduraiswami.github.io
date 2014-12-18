@@ -1,0 +1,26 @@
+*{margin:0;}
+h1{padding-top:10px; font-family: Verdana;}
+h4{text-align:right;}
+p{margin:20px 0;}
+
+img{width:200px;
+  height:100px;
+  position: relative;
+  left:400px;
+}
+
+.container{
+  width:960px;
+  margin:0 auto;
+  border-left:4px solid #000000;
+  border-right:4px solid #000000;
+  padding:0 20px;
+  background-color: #FAFAFA;
+}
+main{
+  background-color: #D8D8D8;
+  margin:0 auto;
+  height: 100%;
+}
+.logo{background-color: #A9D0F5;}
+footer{background-color: #A9D0F5;height:50px;}
