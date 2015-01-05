@@ -10,12 +10,15 @@ body{
 	border-radius: 4px;
 	border: 1px solid #0A174C;
 	text-align: center;
+	border-bottom: black;
 }
 
 #gitkit{
 	height:30px;
 	width:50px;
 	display: inline-block;
+	float: left;
+	margin-top:25px;
 }
 
 #contact{
@@ -28,43 +31,34 @@ body{
 	height:30px;
 	width:50px;
 	display: inline-block;
+	float: right;
+	margin-top: 25px;
 }
 
 .space{
-	height:50px;
+	height:20px;
 }
 
 .projects{
-	width:400px;
+	width:600px;
 	float:left;
-	margin-left: 40px;
-}
-
-td{
-	float left;
-}
-
-tr{
-	display:inline;
-	font-size:12px;
 }
 
 ul{
 	list-style-type: none;
 	float:left;
-
 }
 
 li{
-	float:right;
+	float:left;
 }
 
 .projectimage{
 	height:auto;
 	width: 200px;
 	font-size:12px;
-	float:left;
 	border: 1px solid #0A174C;
+	display: inline;
 }
 
 .me img{
@@ -72,18 +66,24 @@ li{
 	width:auto;
 	display:inline;
 	float:right;
-	margin-right: 40px;
+	margin-right: 50px;
 	border: 1px solid #0A174C;
 }
 
 .buttons{
+	float:right;
+	clear:both;
 
 }
 
 .AboutMe{
-	border-left:1px #0A174C;
+	float: right;
+	border-left: 1px #0A174C;
 	text-decoration: none;
-	vertical-align: text-bottom;
+	clear:both;
+	width: 400px;
+	margin-right: 50px;
+	margin-bottom: 100px;
 }
 
 
