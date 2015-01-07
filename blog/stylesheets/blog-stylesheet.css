@@ -3,10 +3,16 @@ h1{padding-top:10px; font-family: Verdana;}
 h4{text-align:right;}
 p{margin:20px 0;}
 
-img{width:200px;
-  height:100px;
+.logo{
+  background-color: #A9D0F5;
+  border-bottom: 1.5px solid blue;
   position: relative;
-  left:400px;
+}
+
+#boot{
+  margin-left: 200px;
+  width:200px;
+  height:100px;
 }
 
 .container{
@@ -17,14 +23,20 @@ img{width:200px;
   padding:0 20px;
   background-color: #FAFAFA;
 }
+
 main{
   background-color: #D8D8D8;
   margin:0 auto;
   height: 100%;
 }
-.logo{
-  background-color: #A9D0F5;
-  border-bottom: 1.5px solid blue;
+
+.normalimage{
+  margin-left: 200px;
+}
+
+.longimage{
+  width:800px;
+  margin-left: 80px;
 }
 
 footer{

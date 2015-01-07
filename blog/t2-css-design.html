@@ -8,7 +8,7 @@
 <main>
   <div class="container">
   <div class="logo">
-    <img src="logo.png" alt="DBC Logo" />
+    <img id="boot" src="logo.png" alt="DBC Logo" />
   </div>
   <h1>Classes vs IDs in HTML/CSS</h1>
   <h3>Best Practices</h3>
@@ -19,11 +19,22 @@
       For this week's blogpost on HTML/CSS I decided to write about a topic that confused me; how to choose between Classes vs IDs when defining a CSS selector. I found the existence of both selectors confusing because they appeared to accomplish the same goal. <a href="http://www.w3schools.com/css/css_selectors.asp">CSS Selectors</a> allow you to apply CSS changes to HTML elements with variating specificity; on that site we can see examples of the syntax for both CSS selectors. Both IDs and Classes are empty by default, browsers will not populate any CSS attributes to a simply named ID or Class. From my research, part of properly defining rules and classes is increasing performance and load times in a browser.
     </p>
     <p>
-      The ID selector is used for an individual, specific HTML element. Common IDs would be for the nav bar or the footer of a page. The nav bar might be an unordered list in its most basic HTML form, but it will likely get very different CSS treatment for usability. 
+      The ID selector is used for an individual, specific HTML element. Common IDs would be for the nav bar or the footer of a page. The nav bar might be an unordered list in its most basic HTML form, but it will likely get very different CSS treatment for usability. Here are some examples of how I used classes and ids in the header of <a href="kduraiswami.github.io"> my website</a> here:
     </p>
     <p>
-      The Class selector is used for elements in the HTML that are used more than one time. This may be the appearance of ordered and unordered lists. Classes may also be the appearance of menu buttons within a navigation bar. While there may be only one nav bar with an ID, the links within the nav bar may displayed using a "button" class. 
+      <img class="normalimage" src="ClassIDS.png">
     </p>
+    <p>
+      and the header:<br>
+      <img class="longimage" src="Header.png">
+    </p>
+    <p>
+      The Class selector is used for elements in the HTML that are used more than one time. This may be the appearance of ordered and unordered lists. Classes may also be the appearance of menu buttons within a navigation bar. In the example above for my site the "header" is a class that captures three different elements. While there may be only one nav bar with an ID, the links within the nav bar may displayed using a "button" class. In the example above there are three IDs within the class defined as "header." The "gitkit," "contact," and "blogpen" IDs only appear once in the entire HTML document and describe the unique elements even within the "header."
+    </p>
+    <p>
+      Even the images above are displayed using classes by the way! in my blog-template and css stylesheets I use different classes for long and short images. Like this (long image):
+    </p>
+    <p><img class="longimage" src="LongShort.png"></p>
     <p>
       Here are a few best practices I thought of when using IDs and Classes:
         <ul>
