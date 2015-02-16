@@ -1,5 +1,7 @@
 body{
-	font-family: 
+  font-family: 'Raleway', sans-serif;
+  background-color: #ffd5ce;
+  opacity: .90;
 }
 
 .goldengate{
@@ -12,12 +14,12 @@ body{
 
 .nav{
   position: fixed;
-  z-index: 10;
   height: 70px;
   width: 100%;
   opacity: 0.9;
-  background: white;
+  background: #FFFFFF;
   box-shadow: 2px 2px #BCC1CC;
+  font-family: 'Montserrat', sans-serif;
 }
 
 header ul{
@@ -55,40 +57,58 @@ h1, header ul, header li{
 	display: inline-block;
 }
 
-.me img{
-	height:350px;
-	margin-top: 10%;
-	width:auto;
-	float:left;
-	margin-left: 50px;
-	margin-bottom: 10%;
-	border: 1px solid #0A174C;
+h2{
+  float:left;
 }
 
-.AboutMe{
-
+.me img{
+	height:350px;
+	margin: 27% 0% 0% 10%;
+	width:auto;
+	float:left;
+  background-color: #D1CFCF;
+  padding: 15px;
 }
 
 #aboutmetext{
 	border-radius: 15px;
 	background-color: #95C6E1;
 	width: 35%;
-	margin-left: 50%;
-	margin-top: 60%;
+  float: right;
+	margin: 5% 5% 5% 0%;
 	padding: 20% 5% 20% 5%;
 	border:	1px solid #0A174C;
 }
 
+footer{
+  width: 100%;
+  clear: both;
+  text-align: center;
+  border-top: 3px solid #0A174C;
+  background-color: #FFFFFF;
+}
 
+.icons li{
+  display: inline-block;
+  margin: 2%;
+}
 
+.bluebird{
+  height:40px;
+  width:40px;
+}
 
+.LinkedIn{
+  height:40px;
+  width:40px;
+}
 
+.gitkit{
+  height:45px;
+  width:45px; 
+}
 
-
-
-
-
-
-
-
-
+.envelope{
+  height:40px;
+  width:40px;
+}
