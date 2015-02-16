@@ -1,93 +1,83 @@
-
 body{
-	background-color: #E5E2FF;
-
+	font-family: 
 }
 
-.header{
-	height:100px;
-	background-color:#1B3DCC;
-	border-radius: 4px;
+.goldengate{
+	width: 100%;
+	height: 700px;
+	background: url('imgs/goldengate.jpeg') no-repeat;
+	background-size: cover;
 	border: 1px solid #0A174C;
-	text-align: center;
-	border-bottom: black;
 }
 
-#gitkit{
-	height:30px;
-	width:50px;
-	display: inline-block;
-	float: left;
-	margin-top:25px;
+.nav{
+  position: fixed;
+  z-index: 10;
+  height: 70px;
+  width: 100%;
+  opacity: 0.9;
+  background: white;
+  box-shadow: 2px 2px #BCC1CC;
 }
 
-#contact{
-	text-align: center;
-	display: inline-block;
-	font-size: 15px;
-	color:white;
-}
-#blogpen{
-	height:30px;
-	width:50px;
-	display: inline-block;
-	float: right;
-	margin-top: 25px;
-}
-
-.space{
-	height:20px;
-}
-
-.projects{
-	width:600px;
-	float:left;
-}
-
-ul{
-	list-style-type: none;
-	float:left;
+header ul{
+  float: right;
+  margin-right: 40px;
+  line-height: 55px;
+  text-align: left;
 }
 
 li{
-	float:left;
+  list-style: none;
+  margin-left: 25px;
 }
 
-.projectimage{
-	height:auto;
-	width: 200px;
-	font-size:12px;
-	border: 1px solid #0A174C;
-	display: inline;
+header a{
+  text-decoration: none;
+  padding: 14px;
+  font-size: 20px;
+  font-weight: bold;
+}
+ header a:hover{
+  background: #1B3DCC;
+  border-radius: 2px;
+  color: #E7E8EA;
+}
+h1 a:hover{
+  background: white;
+  color: #EB5D2F;
+}
+h1, header ul, header li{
+  display: inline-block;
+}
+
+.biocontent{
+	display: inline-block;
 }
 
 .me img{
 	height:350px;
+	margin-top: 10%;
 	width:auto;
-	display:inline;
-	float:right;
-	margin-right: 50px;
+	float:left;
+	margin-left: 50px;
+	margin-bottom: 10%;
 	border: 1px solid #0A174C;
 }
 
-.buttons{
-	float:right;
-	clear:both;
-
-}
-
 .AboutMe{
-	float: right;
-	border-left: 1px #0A174C;
-	text-decoration: none;
-	clear:both;
-	width: 400px;
-	margin-right: 50px;
-	margin-bottom: 100px;
+
 }
 
-
-
+#aboutmetext{
+	border-radius: 15px;
+	background-color: #95C6E1;
+	width: 35%;
+	margin-left: 50%;
+	margin-top: 60%;
+	padding: 20% 5% 20% 5%;
+	border:	1px solid #0A174C;
+}
 
 
 
