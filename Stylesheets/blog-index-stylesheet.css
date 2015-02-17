@@ -1,4 +1,3 @@
-
 body{
   font-family: 'Raleway', sans-serif;
   background-color: #84BEFD;
@@ -46,30 +45,13 @@ h1, header ul, header li{
   display: inline-block;
 }
 
-.container{
-  width:960px;
-  margin:0 auto;
-  border-left:1px solid #000000;
-  border-right:1px solid #000000;
-  padding:0 20px;
-  background-color: #FAFAFA;
+.jellyfish{
+  width: 100%;
+  height: 700px;
+  background: url('imgs/jellyfish.jpeg') no-repeat;
+  background-size: cover;
+  border: 1px solid #0A174C;
 }
-
-main{
-  background-color: #D8D8D8;
-  margin:0 auto;
-  height: 100%;
-}
-
-.normalimage{
-  margin-left: 200px;
-}
-
-.longimage{
-  width:800px;
-  margin-left: 80px;
-}
-
 
 footer{
   width: 100%;
